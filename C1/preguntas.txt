@@ -1,0 +1,67 @@
+##¿Cuál es el resultado de ejecutar el siguiente código Java?
+public class Test {
+    public static void main(String[] args) {
+        String a = "Hello";
+        String b = "Hello";
+        System.out.println(a == b);
+    }
+}
+
+{
+=true
+~false
+~NullPointerException
+~Compilation Error
+
+##¿Cuál es el nivel de acceso más restrictivo en Java que se puede aplicar a un miembro de una clase?
+{
+~public
+~protected
+~default
+=private
+
+## en la programacion orientada a objetos , el polimorfismo permite que un objeto de una clase hija sea tratado como un objeto de su clase padre {T}
+
+##¿cual de las siguientes afirmaciones es verdadera sobre los objetos en programacion orientada a objetos?
+{
+=un objeto es una instancia de una clase 
+~un objeto solo puede tener metodos pero no atributos
+~un objeto siempre se destruye automaticamente despues de su uso
+~un objeto no puede ser pasado como argumento a un metodo 
+
+##¿cual de las sigueintes afirmaciones es verdadera sobre los atributos en una clase?
+{
+~los atributos solo pueden de ser de tipo entero
+~los atributos son siempre publicos 
+=los atributos definen las propiedades de un objeto 
+~los tributos mo pueden ser modificados
+
+##¿Cuál de las siguientes afirmaciones sobre los métodos en Java es correcta?
+
+~¿Cuál de las siguientes afirmaciones sobre los métodos en Java es correcta?
+=Un método static puede acceder directamente a los miembros de instancia de la clase sin necesidad de crear un objeto de la clase.
+~ede tener múltiples modificadores de acceso al mismo tiempo.
+~El método main en una aplicación Java puede ser definido con un tipo de retorno distinto a void.
+
+##¿Cuál es la salida del siguiente código Java?
+public class Test {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+        int z = (x > y) ? x : y;
+        System.out.println(z);
+    }
+}
+
+{
+~5
+=10
+~15
+~0
+
+## ¿Qué es una interfaz en Java y cómo se utiliza?
+{
+~ Una interfaz es una clase abstracta que puede tener métodos con implementación y se utiliza para definir un conjunto de métodos que una clase debe implementar.
+= Una interfaz es una colección de métodos abstractos que una clase debe implementar y se utiliza para definir un contrato que debe ser seguido por las clases que la implementan.
+~ Una interfaz es una colección de métodos abstractos que una clase debe implementar y se utiliza para definir un contrato que debe ser seguido por las clases que la implementan.
+~ Una interfaz es una colección de métodos abstractos que una clase debe implementar y se utiliza para definir un contrato que debe ser seguido por las clases que l
